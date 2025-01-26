@@ -5,7 +5,7 @@ This code is for point cloud based on CFAR. If you want to get angle-doppler or 
 5. Change your port types according to your operating system e.g. COM11, COM12 for Windows, and tty for Linux.
 6. If there are some errors, plz leave a comment for somebody else. Unfortunately, I'll not see any comments or revise the code.
 7. The code is verified under Windows 12 and Ubuntu Linux with python 3.11.9.
-The original code was from "https://github.com/ibaiGorordo/AWR1843-Read-Data-Python-MMWAVE-SDK-3-" and what I changed is adding ".item()" to line 215, 217, 219, 221 to avoid deprecated warning.
+The original code was from "https://github.com/ibaiGorordo/AWR1843-Read-Data-Python-MMWAVE-SDK-3-" and "https://github.com/kirkster96/IWR6843-Read-Data-Python-MMWAVE-SDK". What I changed is adding ".item()" to readAndParseData14xx to avoid deprecated warning.
 Configuration file setting : Number of Rx antennas : 4, Number of Tx antennas : 3, other advanced parameter can be fitted at TI visualizer demo, ver 3.6.0. Do not use ver 4.x.x since it's not for xWR68xx antenna.
 
 

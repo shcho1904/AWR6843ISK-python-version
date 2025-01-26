@@ -28,5 +28,6 @@ Linux, Windows - Python (I recommend you to setup the radar in Windows).
 5. After flashing, turn the switch into functional mode
    
 ------------------------------------Linux----------------------------------
+
 6. Run the python code (if you want to change the plotting tool, you can).
 (In Linux, you don't need to download the driver.)

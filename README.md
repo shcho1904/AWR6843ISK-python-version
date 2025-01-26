@@ -10,6 +10,7 @@ Configuration file setting : Number of Rx antennas : 4, Number of Tx antennas : 
 
 
 Friendly guides for the novice (Windows - Matlab)
+---------------------------------------------------------------------------
 1. Install MatLab and get the package "https://www.mathworks.com/help/radar/setup-and-configuration-radar-hw.html". 
 2. Connect your antenna to PC with only one serial port wire and follow the steps described in that package's installation guide (You can install all required stuffs).
 3. Run some demos

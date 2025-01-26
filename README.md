@@ -6,3 +6,19 @@
 7. The code is verified under Windows 12 and Ubuntu Linux with python 3.11.9.
 The original code was from "https://github.com/ibaiGorordo/AWR1843-Read-Data-Python-MMWAVE-SDK-3-" and what I changed is adding ".item()" to line 215, 217, 219, 221 to avoid deprecated warning.
 Configuration file setting : Number of Rx antennas : 4, Number of Tx antennas : 3, other advanced parameter can be fitted at TI visualizer demo, ver 3.6.0. Do not use ver 4.x.x since it's not for xWR68xx antenna.
+
+
+Friendly guides for the novice (Windows - Matlab)
+1. Install MatLab and get the package "https://www.mathworks.com/help/radar/setup-and-configuration-radar-hw.html". 
+2. Connect your antenna to PC with only one serial port wire and follow the steps described in that package's installation guide (You can install all required stuffs).
+3. Run some demos
+4. Go to TI visualizer demo and fit parameters of the radar.
+5. Make your own codes
+6. Advantages of this way is you can also use DCA1000EVM (green board) to get raw IQ data.
+
+Linux, Windows - Python
+1. Connect your antenna to PC with only one serial port wire.
+2. Install drivers (you can download it "https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads#software")
+3. Go to the device manager and apply the driver.
+4. Run the code (if you want to change the plotting tool, you can).
+(In Linux, you don't need to download the driver.)

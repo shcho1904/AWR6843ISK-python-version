@@ -1,3 +1,4 @@
+This code is for point cloud based on CFAR. If you want to get angle-doppler or range-doppler response, you will need DCA1000EVM (I strongly recommend you to use MATLAB TI radar toolbox.)
 1. Install all of required modules such as pyserial, PyQt (this is only for figure), numpy and so on (you don't need to worry about drivers. Just change the name of serial from '/dev/ttyACM0' to '/dev/ttyUSB0')
 2. Usual CLI port is ttyUSB0 and data port is ttyUSB1 in Linux (I think Window's port is quite random since in my case, it is CLI : COM12 and Data : COM11 but others are increasing order such as COM3 for CLI and COM4 for data. You have to check thoroughly).
 4. Check your version of operating system e.g. Ubuntu, Windows, ..., and so on.
@@ -19,6 +20,7 @@ Friendly guides for the novice (Windows - Matlab)
 Linux, Windows - Python
 1. Connect your antenna to PC with only one serial port wire.
 2. Install drivers (you can download it "https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads#software")
-3. Go to the device manager and apply the driver.
-4. Run the code (if you want to change the plotting tool, you can).
+3. Change the switch mode and flash the demo binaries via Uniflash (I'm not sure it works on Linux and I recommend you to use Matlab's TI radar toolbox's installation guide in Windows).
+4. Go to the device manager and apply the driver.
+5. Run the code (if you want to change the plotting tool, you can).
 (In Linux, you don't need to download the driver.)

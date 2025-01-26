@@ -26,6 +26,7 @@ Linux, Windows - Python (I recommend you to setup the radar in Windows).
 3. Go to the device manager and apply the driver.
 4. Change the switch mode and flash the demo binaries via Uniflash (I'm not sure it works on Linux and I recommend you to use Matlab's TI radar toolbox's installation guide).
 5. After flashing, turn the switch into functional mode
+   
 ------------------------------------Linux----------------------------------
-7. Run the python code (if you want to change the plotting tool, you can).
+6. Run the python code (if you want to change the plotting tool, you can).
 (In Linux, you don't need to download the driver.)

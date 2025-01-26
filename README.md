@@ -13,14 +13,18 @@ Friendly guides for the novice (Windows - Matlab)
 1. Install MatLab and get the package "https://www.mathworks.com/help/radar/setup-and-configuration-radar-hw.html". 
 2. Connect your antenna to PC with only one serial port wire and follow the steps described in that package's installation guide (You can install all required stuffs).
 3. Run some demos
-4. Go to TI visualizer demo and fit parameters of the radar.
+4. Go to TI visualizer demo ver.3.x.x and fit parameters of the radar.
 5. Make your own codes
 6. Advantages of this way is you can also use DCA1000EVM (green board) to get raw IQ data.
 
-Linux, Windows - Python
+Linux, Windows - Python (I recommend you to setup the radar in Windows).
+---------------------------------------------------------------------------
+------------------------------------Windows--------------------------------
 1. Connect your antenna to PC with only one serial port wire.
 2. Install drivers (you can download it "https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads#software")
-3. Change the switch mode and flash the demo binaries via Uniflash (I'm not sure it works on Linux and I recommend you to use Matlab's TI radar toolbox's installation guide in Windows).
-4. Go to the device manager and apply the driver.
-5. Run the code (if you want to change the plotting tool, you can).
+3. Go to the device manager and apply the driver.
+4. Change the switch mode and flash the demo binaries via Uniflash (I'm not sure it works on Linux and I recommend you to use Matlab's TI radar toolbox's installation guide).
+5. After flashing, turn the switch into functional mode
+------------------------------------Linux----------------------------------
+7. Run the python code (if you want to change the plotting tool, you can).
 (In Linux, you don't need to download the driver.)
